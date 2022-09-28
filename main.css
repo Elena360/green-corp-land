@@ -13,6 +13,13 @@ header {
     padding: 10px;
     align-items: center;
 }
+.orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    
+}
 
 .logo {
     margin-top: 15px;
@@ -59,6 +66,7 @@ button {
     align-items: center;
     padding-top: 115px;
     padding-bottom: 115px;
+    position: relative
 }
 
 .about h1 {
@@ -203,7 +211,7 @@ select {
     padding: 35px 40px 25px 40px;
     border: 1px #D9E4E6 solid;
     border-radius: 5px;
-
+    background: #FFFFFF;
 }
 
 .card .logo {
@@ -235,10 +243,16 @@ select {
 .card3 .logo {
     color: #22a030;
 }
+.features {
+    background-color: #fff;
+    padding: 115px 60px; 
+  }
 
 .features__border {
-    margin: 50px 0;
+    margin-top: 50px;
+  margin-bottom: 50px;
     border: 1px solid #E6EAF4;
+    width: 100%;
 }
 
 .features__feedback {
@@ -295,15 +309,15 @@ select {
 .promo__image{
     background-image: url(img/promo.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 25%;
+    background-position: center;
     flex-shrink: 0;
+    width: 50%;
 }
 
-.promo__left{
+/* .promo__left{
     width: 50%;
     height: 500px;
-}
+} */
 /* .promo__image{
     background-image: url(img/promo.jpeg);
     background-position: center;
@@ -314,7 +328,7 @@ select {
     
 } */
 .promo__right{
-    box-sizing: border-box;
+    
     background: #dd5f26;
     padding: 160px 60px;
     
@@ -353,6 +367,11 @@ select {
 .btn__chevron{
     line-height: 15px;
     margin-left: 5px;
+}
+.promo__button{
+    display: flex;
+  justify-content: center;
+
 }
 
 
@@ -507,7 +526,7 @@ footer h3 {
     }
     .promo__right{
         padding: 50px 10px;
-        width: 100%;
+        
     }
     .promo{
 
